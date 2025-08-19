@@ -1,0 +1,46 @@
+# Data files (but keep Python scripts)
+data/*.npy
+data/*.csv
+data/*.json
+data/*.pkl
+notebooks/data/
+adversarial_examples/*.npy
+models/saved/*.npy
+models/saved/*.pkl
+models/saved/*.keras
+models/saved/*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.h5
+*.keras
+models/saved/
+
+# Large data files
+*.npy
+*.csv
+*.json
+*.pkl
+
+# Logs
+*.log
